@@ -30,6 +30,8 @@ mongoose.set('debug', true);
 require('./models/Articles');
 // Add routes
 
+app.use(require('./routes'));
+
 app.use((req, res, next) => {
   const err = new Error('Not Found');
   err.status = 404;
