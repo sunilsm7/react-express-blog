@@ -27,6 +27,7 @@ mongoose.connect('mongodb://localhost/reactblog');
 mongoose.set('debug', true);
 
 // Add models
+require('./models/Articles');
 // Add routes
 
 app.use((req, res, next) => {
