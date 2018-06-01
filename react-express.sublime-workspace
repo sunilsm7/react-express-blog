@@ -1,0 +1,997 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"articl",
+				"article\tarticles.js"
+			],
+			[
+				"Art",
+				"ArticleSchema"
+			],
+			[
+				"crea",
+				"create()\tsocket.io.slim.js"
+			],
+			[
+				"exams",
+				"examsListSubs"
+			],
+			[
+				"exam",
+				"examsApi"
+			],
+			[
+				"ht",
+				"httpOptions"
+			],
+			[
+				"get",
+				"getAccessToken"
+			],
+			[
+				"htt",
+				"httpOptions"
+			],
+			[
+				"exa",
+				"exam"
+			],
+			[
+				"ex",
+				"examId"
+			],
+			[
+				"si",
+				"signOut"
+			],
+			[
+				"sing",
+				"signIn"
+			],
+			[
+				"Mat",
+				"MatButtonModule"
+			],
+			[
+				"M",
+				"MatToolbarModule"
+			],
+			[
+				"Aut",
+				"Auth0"
+			],
+			[
+				"H",
+				"HttpHeaders"
+			],
+			[
+				"sign",
+				"signIn"
+			],
+			[
+				"app",
+				"appRoutes"
+			],
+			[
+				"R",
+				"RouterModule"
+			],
+			[
+				"E",
+				"ExamsComponent"
+			],
+			[
+				"Ex",
+				"ExamFormComponent"
+			],
+			[
+				"update",
+				"updateDescription"
+			],
+			[
+				"Exa",
+				"ExamsApiService"
+			],
+			[
+				"On",
+				"OnDestroy"
+			],
+			[
+				"examsList",
+				"examsListSubs"
+			],
+			[
+				"EX",
+				"ExamsApiService"
+			],
+			[
+				"re",
+				"response"
+			],
+			[
+				"dec",
+				"decorated"
+			],
+			[
+				"in",
+				"invalid_header"
+			],
+			[
+				"Auth",
+				"AuthError"
+			],
+			[
+				"js",
+				"jsonurl"
+			],
+			[
+				"ge",
+				"get_token_auth_header"
+			],
+			[
+				"be",
+				"bearer"
+			],
+			[
+				"Au",
+				"Authorization"
+			],
+			[
+				"de",
+				"description"
+			],
+			[
+				"auth",
+				"Authorization"
+			],
+			[
+				"b",
+				"bp"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"log",
+				"logout"
+			],
+			[
+				"use",
+				"user"
+			],
+			[
+				"aut",
+				"author_id"
+			],
+			[
+				"cre",
+				"created"
+			],
+			[
+				"get_",
+				"get_db"
+			],
+			[
+				"TO",
+				"TodoList"
+			],
+			[
+				"tod",
+				"todos"
+			],
+			[
+				"ap",
+				"api"
+			],
+			[
+				"que",
+				"queryset"
+			],
+			[
+				"pagina",
+				"paginate_by"
+			],
+			[
+				"top",
+				"topic_pk"
+			],
+			[
+				"topics",
+				"topic_posts"
+			],
+			[
+				"topi",
+				"topic_url"
+			],
+			[
+				"se",
+				"session_key"
+			],
+			[
+				"ses",
+				"session"
+			],
+			[
+				"session",
+				"session_key"
+			],
+			[
+				"las",
+				"last_updated"
+			],
+			[
+				"ma",
+				"markdown"
+			],
+			[
+				"boa",
+				"board__pk"
+			],
+			[
+				"pa",
+				"paginated_by"
+			],
+			[
+				"la",
+				"last_updated"
+			],
+			[
+				"Pag",
+				"PageNotAnInteger"
+			],
+			[
+				"as",
+				"as_view"
+			],
+			[
+				"con",
+				"context_object_name"
+			],
+			[
+				"me",
+				"method_decorator"
+			],
+			[
+				"Pos",
+				"PostForm"
+			],
+			[
+				"new",
+				"new_post"
+			],
+			[
+				"Form",
+				"FormView"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"ini",
+				"initial"
+			],
+			[
+				"com",
+				"comments"
+			],
+			[
+				"init",
+				"initial_data"
+			],
+			[
+				"is",
+				"is_authenticated"
+			],
+			[
+				"ob",
+				"objects"
+			],
+			[
+				"comm",
+				"comment"
+			],
+			[
+				"content",
+				"content_type"
+			],
+			[
+				"Res",
+				"RestaurantLocations"
+			],
+			[
+				"Co",
+				"CommentForm"
+			],
+			[
+				"bo",
+				"box-shadow"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"P",
+				"POST"
+			],
+			[
+				"tex",
+				"text-muted"
+			],
+			[
+				"topic",
+				"topics_posts"
+			],
+			[
+				"merg",
+				"mergeList"
+			],
+			[
+				"sor",
+				"sortedMergedList"
+			],
+			[
+				"mer",
+				"mergeList"
+			],
+			[
+				"mr",
+				"mergeList"
+			],
+			[
+				"lsit",
+				"list2"
+			],
+			[
+				"lis",
+				"list1"
+			],
+			[
+				"word",
+				"words_list"
+			],
+			[
+				"wor",
+				"words_list"
+			],
+			[
+				"pri",
+				"printNumbers"
+			],
+			[
+				"o",
+				"charOccurance"
+			],
+			[
+				"test",
+				"test2"
+			],
+			[
+				"s",
+				"str1"
+			],
+			[
+				"str",
+				"str2"
+			],
+			[
+				"st",
+				"str2"
+			],
+			[
+				"li",
+				"listNumToString"
+			],
+			[
+				"num",
+				"numDivisibleBy"
+			],
+			[
+				"user",
+				"user2"
+			],
+			[
+				"eve",
+				"evenOdd"
+			],
+			[
+				"tell",
+				"tellAge"
+			],
+			[
+				"L",
+				"L2"
+			],
+			[
+				"di",
+				"digits"
+			],
+			[
+				"fie",
+				"field_type"
+			],
+			[
+				"U",
+				"UserCreationForm"
+			],
+			[
+				"fo",
+				"forms"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"inli",
+				"inline-grid"
+			],
+			[
+				"boar",
+				"board_topics"
+			],
+			[
+				"na",
+				"navbar"
+			],
+			[
+				"current",
+				"currentTarget\t: EventTarget Event"
+			],
+			[
+				"res",
+				"resolve"
+			],
+			[
+				"au",
+				"auto_now_add"
+			],
+			[
+				"Com",
+				"CommentSerializer"
+			],
+			[
+				"Comm",
+				"CommentChildSerializer"
+			],
+			[
+				"Is",
+				"IsAuthenticatedOrReadOnly"
+			],
+			[
+				"ser",
+				"serializer_class"
+			],
+			[
+				"To",
+				"ToDo"
+			],
+			[
+				"objects",
+				"object_list"
+			],
+			[
+				"quer",
+				"queryset"
+			],
+			[
+				"qu",
+				"queryset"
+			],
+			[
+				"obje",
+				"object_list"
+			],
+			[
+				"rees",
+				"rest_framework"
+			],
+			[
+				"act",
+				"activation_key"
+			],
+			[
+				"ac",
+				"activation_key"
+			],
+			[
+				"Reg",
+				"RegisterView"
+			],
+			[
+				"Pro",
+				"ProfileManager"
+			],
+			[
+				"pr",
+				"profile_"
+			],
+			[
+				"po",
+				"post_save_user_receiver"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "server/routes/index.js",
+			"settings":
+			{
+				"buffer_size": 133,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/package.json",
+			"settings":
+			{
+				"buffer_size": 1126,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/webpack.config.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: A",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Local Dependency"
+			]
+		],
+		"width": 479.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"exit()",
+			"exit"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/sunil/projects/react_works/react-express-blog"
+	],
+	"file_history":
+	[
+		"/home/sunil/projects/react_works/react-express-blog/server/routes/api/index.js",
+		"/home/sunil/projects/react_works/react-express-blog/server/app.js",
+		"/home/sunil/projects/react_works/react-express-blog/server/routes/api/articles.js",
+		"/home/sunil/projects/react_works/react-express-blog/server/models/Articles.js",
+		"/home/sunil/projects/online-exam/backend/alembic.ini",
+		"/home/sunil/projects/online-exam/backend/src/main.py",
+		"/home/sunil/projects/online-exam/frontend/src/app/app.module.ts",
+		"/home/sunil/projects/online-exam/frontend/src/app/exams/exams-api.service.ts",
+		"/home/sunil/projects/online-exam/backend/src/entities/exam.py",
+		"/home/sunil/projects/online-exam/backend/migrations/versions/1e65a417e3b6_add_long_description_to_exams.py",
+		"/home/sunil/projects/online-exam/backend/src/auth.py",
+		"/home/sunil/projects/online-exam/backend/requirements.txt",
+		"/home/sunil/projects/online-exam/frontend/src/styles.css",
+		"/home/sunil/projects/online-exam/frontend/src/app/app.component.css",
+		"/home/sunil/projects/online-exam/frontend/src/app/exams/exams.component.css",
+		"/home/sunil/projects/online-exam/frontend/src/app/exams/exams.component.ts",
+		"/home/sunil/projects/online-exam/frontend/src/app/callback.component.ts",
+		"/home/sunil/projects/online-exam/frontend/src/polyfills.ts",
+		"/home/sunil/projects/online-exam/frontend/src/index.html",
+		"/home/sunil/projects/online-exam/frontend/src/main.ts",
+		"/home/sunil/projects/online-exam/backend/bootstrap.sh",
+		"/home/sunil/projects/online-exam/frontend/src/app/exams/exam.model.ts",
+		"/home/sunil/projects/online-exam/frontend/src/app/exams/exam-form.component.ts",
+		"/home/sunil/projects/online-exam/frontend/src/app/app.component.ts",
+		"/home/sunil/projects/online-exam/frontend/src/app/app.component.html",
+		"/home/sunil/projects/online-exam/frontend/src/app/env.ts",
+		"/home/sunil/projects/online-exam/backend/src/entities/entity.py",
+		"/home/sunil/projects/flask_works/flaskr_blog/flaskr/blog.py",
+		"/home/sunil/projects/flask_works/flaskr_blog/flaskr/templates/base.html",
+		"/home/sunil/projects/flask_works/flaskr_blog/flaskr/templates/blog/details.html",
+		"/home/sunil/projects/flask_works/flaskr_blog/flaskr/templates/blog/update.html",
+		"/home/sunil/projects/flask_works/flaskr_blog/flaskr/templates/blog/create.html",
+		"/home/sunil/projects/flask_works/flaskr_blog/flaskr/templates/blog/index.html",
+		"/home/sunil/projects/flask_works/flaskr_blog/flaskr/static/style.css",
+		"/home/sunil/projects/flask_works/flaskr_blog/bootstrap.sh",
+		"/home/sunil/sourcefabric.txt",
+		"/home/sunil/projects/flask_works/flaskr_blog/app.py",
+		"/home/sunil/projects/flask_works/flaskr_blog/flaskr/__init__.py",
+		"/home/sunil/projects/flask_works/flaskr_blog/.gitignore",
+		"/home/sunil/projects/django_works/resto-crm-and-analytics/server/accounts/models.py",
+		"/home/sunil/projects/django_works/resto-crm-and-analytics/server/restaurant/models.py",
+		"/home/sunil/projects/django_works/resto-crm-and-analytics/server/orders/models.py",
+		"/home/sunil/projects/django_works/resto-crm-and-analytics/server/reservations/models.py",
+		"/home/sunil/projects/django_works/resto-crm-and-analytics/server/resto/settings/base.py",
+		"/home/sunil/projects/django_works/resto-crm-and-analytics/server/resto/settings/production.py",
+		"/home/sunil/projects/django_works/resto-crm-and-analytics/server/resto/settings/local.py",
+		"/home/sunil/projects/flask_works/todo-flask-rest-app/.gitignore",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/templates/edit_post.html",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/templates/reply_topic.html",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/templates/home.html",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/templates/base.html",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/templates/topics.html",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/templates/search_results.html",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/boards/models.py",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/.gitignore",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/requirements.txt",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/.env",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/boardproject/settings.py",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/templates/topic_posts.html",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/boards/views.py",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/boards/tests/test_view_reply_topic.py",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/templates/includes/pagination.html",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/accounts/views.py",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/boards/templatetags/gravatar.py",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/boards/templatetags/form_tags.py",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/boardproject/urls.py",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/boards/urls.py",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/templates/my_account.html",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/boards/tests/test_view_topic_posts.py",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/boards/tests/test_view_board_topics.py",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/boards/tests/test_view_edit_post.py",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/boards/tests/test_view_home.py",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/runtime.txt",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/restaurants/urls.py",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/restaurants/views.py",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/menus/models.py",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/menus/views.py",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/restaurants/models.py",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/restaurants/templates/restaurants/restaurantlocations_detail.html",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/menus/templates/menus/item_detail.html",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/templates/snippets/nav.html",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/static/css/styles.css",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/templates/snippets/css.html",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/templates/base.html",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/templates/home.html",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/templates/registration/login.html",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/templates/registration/register.html",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/templates/snippets/js.html",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/django_resto/settings/base.py",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/comments/forms.py",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/comments/models.py",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/comments/templates/comments/confirm_delete.html",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/comments/templates/comments/comment_thread.html",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/comments/views.py",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/comments/urls.py",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/django_resto/urls.py",
+		"/home/sunil/django_projects/Dev/django_angular/Blog Site clone/Advancing-the-Blog/src/posts/views.py",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/account/views.py",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/templates/comment_thread.html",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/restaurants/templates/restaurants/restaurants_list.html",
+		"/home/sunil/django_projects/Dev/django_angular/Blog Site clone/Advancing-the-Blog/src/templates/post_detail.html",
+		"/home/sunil/django_projects/Dev/try_django/django_resto/account/mixins.py",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/static/css/app.css",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/boards/forms.py",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/accounts/tests/test_mail_password_reset.py",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/boards/tests/test_view_new_topic.py",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/boards/tests/test_views.py",
+		"/home/sunil/django_projects/myprojects/venv/django_boardproject/templates/login.html",
+		"/home/sunil/django_projects/Dev2/works_env/python_exercises/Python_practice/practice_02/listLessThan.py",
+		"/home/sunil/django_projects/Dev2/works_env/python_exercises/Python_practice/practice_02/listComprhension.py",
+		"/home/sunil/django_projects/Dev2/works_env/python_exercises/Python_practice/practice_02/evenOdd.py",
+		"/home/sunil/django_projects/Dev2/works_env/python_exercises/Python_practice/practice_01/removeDeuplicates.py",
+		"/home/sunil/django_projects/Dev2/works_env/python_exercises/Python_practice/practice_01/listToNum.py",
+		"/home/sunil/django_projects/Dev2/works_env/python_exercises/Python_practice/practice_01/mergeListSort.py",
+		"/home/sunil/django_projects/Dev2/works_env/python_exercises/Python_practice/practice_01/replaceVowels.py",
+		"/home/sunil/django_projects/Dev2/works_env/python_exercises/Python_practice/practice_02/rockPaperScissor.py",
+		"/home/sunil/django_projects/Dev2/works_env/python_exercises/Python_practice/practice_01/msgEncrypt.py",
+		"/home/sunil/django_projects/Dev2/works_env/python_exercises/Python_practice/practice_01/occurrOfChar.py",
+		"/home/sunil/django_projects/Dev2/works_env/python_exercises/Python_practice/practice_01/sentenceAbrevation.py",
+		"/home/sunil/django_projects/Dev2/works_env/python_exercises/Python_practice/practice_01/printNos.py",
+		"/home/sunil/django_projects/Dev2/works_env/Python_tutorials/practice_01/hasDuplicates.py",
+		"/home/sunil/django_projects/Dev2/works_env/Python_tutorials/practice_01/removeDeuplicates.py",
+		"/home/sunil/django_projects/Dev2/works_env/Python_tutorials/practice_01/anagramStrings.py",
+		"/home/sunil/django_projects/Dev2/works_env/Python_tutorials/practice_02/listOverlap.py",
+		"/home/sunil/django_projects/Dev2/works_env/Python_tutorials/practice_01/assign3.py",
+		"/home/sunil/django_projects/Dev2/works_env/Python_tutorials/practice_01/binarySearch.py",
+		"/home/sunil/django_projects/Dev2/works_env/Python_tutorials/practice_02/charInput.py",
+		"/home/sunil/django_projects/Dev2/works_env/Python_tutorials/practice_02/listComprhension.py"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/home/sunil/projects/react_works/react-express-blog"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "server/routes/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								133,
+								133
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								359,
+								359
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client/webpack.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 168.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
