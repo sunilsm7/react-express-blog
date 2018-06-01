@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"hand",
+				"handleChangeField"
+			],
+			[
+				"te",
+				"textarea"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"createH",
+				"createHistory"
+			],
+			[
 				"articl",
 				"article\tarticles.js"
 			],
@@ -498,58 +514,34 @@
 			[
 				"ac",
 				"activation_key"
-			],
-			[
-				"Reg",
-				"RegisterView"
-			],
-			[
-				"Pro",
-				"ProfileManager"
-			],
-			[
-				"pr",
-				"profile_"
-			],
-			[
-				"po",
-				"post_save_user_receiver"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "server/routes/index.js",
+			"file": "client/src/index.js",
 			"settings":
 			{
-				"buffer_size": 133,
+				"buffer_size": 426,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "client/package.json",
+			"file": "client/src/components/Article/Form/index.jsx",
 			"settings":
 			{
-				"buffer_size": 1126,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "client/webpack.config.js",
-			"settings":
-			{
-				"buffer_size": 0,
+				"buffer_size": 1485,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "",
+			"contents": "import React from 'react';\nimport axios from 'axios';\n\nclass Form extends React.Component {\n  constructor(props) {\n    super(props);\n\n    this.state = {\n      title: '',\n      body: '',\n      author: '',\n    }\n\n    this.handleChangeField = this.handleChangeField.bind(this);\n    this.handleSubmit = this.handleSubmit.bind(this);\n  }\n\n  handleSubmit(){\n    const { title, body, author } = this.state;\n\n    return axios.post('http://localhost:8000/api/articles', {\n      title,\n      body,\n      author,\n    });\n  }\n\n  handleChangeField(key, event) {\n    this.setState({\n      [key]: event.target.value,\n    });\n  }\n\n  render() {\n    const { title, body, author } = this.state;\n\n    return (\n      <div className=\"col-12 col-lg-6 offset-lg-3\">\n        <input\n          onChange={(ev) => this.handleChangeField('title', ev)}\n          value={title}\n          className=\"form-control my-3\"\n          placeholder=\"Article Title\"\n        />\n        <textarea\n          onChange={(ev) => this.handleChangeField('body', ev)}\n          className=\"form-control my-3\"\n          placeholder=\"Article Body\"\n          value={body}>\n        </textarea>\n        <input\n          onChange={(ev) => this.handleChangeField('author', ev)}\n          value={author}\n          className=\"form-control my-3\"\n          placeholder=\"Article Author\"\n        />\n        <button onClick={this.handleSubmit} className=\"btn btn-primary float-right\">Submit</button>\n      </div>\n    )\n  }\n}",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1458,
 				"line_ending": "Unix"
 			}
 		}
@@ -600,10 +592,27 @@
 	},
 	"expanded_folders":
 	[
-		"/home/sunil/projects/react_works/react-express-blog"
+		"/home/sunil/projects/react_works/react-express-blog",
+		"/home/sunil/projects/react_works/react-express-blog/client",
+		"/home/sunil/projects/react_works/react-express-blog/client/src",
+		"/home/sunil/projects/react_works/react-express-blog/client/src/components",
+		"/home/sunil/projects/react_works/react-express-blog/client/src/components/Article",
+		"/home/sunil/projects/react_works/react-express-blog/client/src/components/Article/Form"
 	],
 	"file_history":
 	[
+		"/home/sunil/projects/react_works/react-express-blog/client/src/components/Article/Form/index.jsx",
+		"/home/sunil/projects/react_works/react-express-blog/client/src/components/Article/index.js",
+		"/home/sunil/projects/react_works/react-express-blog/client/src/components/Home/index.jsx",
+		"/home/sunil/projects/react_works/react-express-blog/client/src/components/index.js",
+		"/home/sunil/projects/react_works/react-express-blog/client/src/components/App/index.jsx",
+		"/home/sunil/projects/react_works/react-express-blog/client/resources/index.html",
+		"/home/sunil/projects/react_works/react-express-blog/client/src/components/App/index.js",
+		"/home/sunil/projects/react_works/react-express-blog/server/routes/index.js",
+		"/home/sunil/projects/react_works/react-express-blog/client/package.json",
+		"/home/sunil/projects/react_works/react-express-blog/client/webpack.config.js",
+		"/home/sunil/projects/react_works/react-express-blog/client/resources/scss/style.css",
+		"/home/sunil/projects/react_works/react-express-blog/client/.babelrc",
 		"/home/sunil/projects/react_works/react-express-blog/server/routes/api/index.js",
 		"/home/sunil/projects/react_works/react-express-blog/server/app.js",
 		"/home/sunil/projects/react_works/react-express-blog/server/routes/api/articles.js",
@@ -719,19 +728,7 @@
 		"/home/sunil/django_projects/Dev2/works_env/python_exercises/Python_practice/practice_01/listToNum.py",
 		"/home/sunil/django_projects/Dev2/works_env/python_exercises/Python_practice/practice_01/mergeListSort.py",
 		"/home/sunil/django_projects/Dev2/works_env/python_exercises/Python_practice/practice_01/replaceVowels.py",
-		"/home/sunil/django_projects/Dev2/works_env/python_exercises/Python_practice/practice_02/rockPaperScissor.py",
-		"/home/sunil/django_projects/Dev2/works_env/python_exercises/Python_practice/practice_01/msgEncrypt.py",
-		"/home/sunil/django_projects/Dev2/works_env/python_exercises/Python_practice/practice_01/occurrOfChar.py",
-		"/home/sunil/django_projects/Dev2/works_env/python_exercises/Python_practice/practice_01/sentenceAbrevation.py",
-		"/home/sunil/django_projects/Dev2/works_env/python_exercises/Python_practice/practice_01/printNos.py",
-		"/home/sunil/django_projects/Dev2/works_env/Python_tutorials/practice_01/hasDuplicates.py",
-		"/home/sunil/django_projects/Dev2/works_env/Python_tutorials/practice_01/removeDeuplicates.py",
-		"/home/sunil/django_projects/Dev2/works_env/Python_tutorials/practice_01/anagramStrings.py",
-		"/home/sunil/django_projects/Dev2/works_env/Python_tutorials/practice_02/listOverlap.py",
-		"/home/sunil/django_projects/Dev2/works_env/Python_tutorials/practice_01/assign3.py",
-		"/home/sunil/django_projects/Dev2/works_env/Python_tutorials/practice_01/binarySearch.py",
-		"/home/sunil/django_projects/Dev2/works_env/Python_tutorials/practice_02/charInput.py",
-		"/home/sunil/django_projects/Dev2/works_env/Python_tutorials/practice_02/listComprhension.py"
+		"/home/sunil/django_projects/Dev2/works_env/python_exercises/Python_practice/practice_02/rockPaperScissor.py"
 	],
 	"find":
 	{
@@ -772,29 +769,29 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "server/routes/index.js",
+					"file": "client/src/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 133,
+						"buffer_size": 426,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								133,
-								133
+								361,
+								361
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -807,56 +804,28 @@
 				},
 				{
 					"buffer": 1,
-					"file": "client/package.json",
+					"file": "client/src/components/Article/Form/index.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1126,
+						"buffer_size": 1485,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								359,
-								359
+								393,
+								393
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "client/webpack.config.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
+						"translation.x": 1.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -870,19 +839,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1458,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								328,
+								328
 							]
 						],
 						"settings":
@@ -895,7 +864,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -989,7 +958,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 168.0,
+	"side_bar_width": 50.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
