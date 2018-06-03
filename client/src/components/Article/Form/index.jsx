@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 class Form extends React.Component {
   constructor(props) {
     super(props);
+
     this.state = {
       title: '',
       body: '',
@@ -15,16 +16,38 @@ class Form extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  handleSubmit() {
-    const { onSubmit } = this.props;
-    const {title, body, author } = this.state;
+  componentWillReceiveProps(nextProps) {
+    if(nextProps.articleToEdit) {
+      this.setState({
+        title: nextProps.articleToEdit.title,
+        body: nextProps.articleToEdit.body,
+        author: nextProps.articleToEdit.author,
+      });
+    }
+  }
 
-    return axios.post('http://localhost:8000/api/articles',{
-      title,
-      body,
-      author,
-    })
-     .then((res) => onSubmit(res.data));
+
+  handleSubmit(){
+    const { onSubmit, articleToEdit, onEdit } = this.props;
+    const { title, body, author } = this.state;
+
+    if(!articleToEdit) {
+      return axios.post('http://localhost:8000/api/articles', {
+        title,
+        body,
+        author,
+      })
+        .then((res) => onSubmit(res.data))
+        .then(() => this.setState({ title: '', body: '', author: '' }));
+    } else {
+      return axios.patch(`http://localhost:8000/api/articles/${articleToEdit._id}`, {
+        title,
+        body,
+        author,
+      })
+        .then((res) => onEdit(res.data))
+        .then(() => this.setState({ title: '', body: '', author: '' }));
+    }
   }
 
   handleChangeField(key, event) {
@@ -34,6 +57,7 @@ class Form extends React.Component {
   }
 
   render() {
+    const { articleToEdit } = this.props;
     const { title, body, author } = this.state;
 
     return(
@@ -64,7 +88,12 @@ class Form extends React.Component {
 
 const mapDispatchToProps = dispatch => ({
   onSubmit: data => dispatch({ type: 'SUBMIT_ARTICLE', data}),
+  onEdit: data => dispatch({ type: 'EDIT_ARTICLE', data }),
+});
+
+const mapStateToProps = state => ({
+  articleToEdit: state.home.articleToEdit,
 });
 
 
-export default connect(null, mapDispatchToProps)(Form);
+export default connect(mapStateToProps, mapDispatchToProps)(Form);
